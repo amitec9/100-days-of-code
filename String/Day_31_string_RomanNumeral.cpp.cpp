@@ -1,10 +1,7 @@
 // Program to convert Roman
-// Numerals to Numbers
+
 #include <bits/stdc++.h>
 using namespace std;
-
-// This function returns value
-// of a Roman symbol
 int value(char r)
 {
 	if (r == 'I')
@@ -71,8 +68,6 @@ int main()
 {
 	// Considering inputs given are valid
 	string str = "MCMIV";
-	cout << "Integer form of Roman Numeral is "
-		<< romanToDecimal(str) << endl;
-
+	cout << "Integer form of Roman Numeral is "<< romanToDecimal(str) << endl;
 	return 0;
 }
